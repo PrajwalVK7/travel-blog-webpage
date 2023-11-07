@@ -1,0 +1,101 @@
+#home {
+    background-image: url('./assets/home-bg.jpg');
+    background-size: cover;
+    height: 93vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+    font-size: 20px;
+}
+
+.home-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+}
+
+.card>.card-img-overlay {
+    position: absolute;
+    bottom: 0px;
+    top: unset;
+    color: white;
+}
+
+/* .book-section{
+    background-image: url('./assets/pexels-te-lensfix-1371360.jpg');
+    background-size: cover;
+    background-position: center;
+    height:max-content;
+} */
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-right {
+    border: 1px solid black;
+}
+
+.book-right>img {
+    border: 1px solid black;
+
+}
+#book-img:hover{
+    opacity: 0.9;
+}
+ul {
+    list-style: none;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(50, 1, 79);
+    color: white;
+    text-decoration: none;
+}
+
+.contact-se a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#blank {
+    height: 100px;
+}
+
+.trips .card{
+    border: none;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    
+}
+.trips img {
+    transition: 0.2s;
+    transform: scale(0.9);
+}
+
+.trips img:hover {
+    transform:scale(1.0);
+    opacity: 0.9;
+    
+}
+
+#service-card .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blog-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
